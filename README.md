@@ -11,7 +11,7 @@
 
 ## 1. Executive Summary & Problem Statement
 
-In mission-critical **Command, Control, and Communications (C3)** environments—such as energy sector pipeline monitoring and critical infrastructure surveillance—unplanned server downtime, unmonitored process injection, and latent network corridor degradation represent catastrophic operational hazards. A frozen security camera stream or an unresponsive domain controller can blind physical security operators to active perimeter breaches.
+In mission-critical **Command, and Control Centers (C3)** environments—such as energy sector pipeline monitoring and critical infrastructure surveillance—unplanned server downtime, unmonitored process injection, and latent network corridor degradation represent catastrophic operational hazards. A frozen security camera stream or an unresponsive domain controller can blind physical security operators to active perimeter breaches.
 
 This project designs and implements an enterprise-grade **C3 Systems Diagnostic, Endpoint Hardening & Infrastructure Telemetry Framework**. Leveraging the **Microsoft Sysinternals Suite** on Windows Server 2019 (`CORP-DC01`) and workstation nodes (`CORP-CLO1`), this project establishes deep kernel-level process hierarchy verification, automates digital signature and **VirusTotal** hash validation, inspects active network sockets via **TCPView**, enforces **Advanced Audit Policies (GPO)** with command-line process tracking (Event ID 4688), and deploys an automated **C3 Surveillance Network Corridor Availability Probe**.
 
