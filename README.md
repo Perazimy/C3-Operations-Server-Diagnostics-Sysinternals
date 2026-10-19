@@ -82,43 +82,50 @@ This project designs and implements an enterprise-grade **C3 Systems Diagnostic,
 ## 4. Verification & Testing Evidence
 
 ### Test 1: Process Explorer Hierarchy, Digital Signatures & VirusTotal Analysis
-![Process Explorer Signatures](screenshots/week6/01_Process_Explorer_Signatures_VirusTotal.png)
+![Process Explorer Signatures](Screenshots/01_Process_Explorer_Signatures_VirusTotal.png)
+
 *Figure 1: Process Explorer (`procexp.exe`) running with administrative privileges on `CORP-DC01`, displaying the active process hierarchy (`wininit.exe` -> `services.exe` -> `svchost.exe`), Verified Signer certificates, and VirusTotal clean reputation scores.*
 
 ---
 
 ### Test 2: Process Explorer Lower-Pane DLL & Handle Inspection
-![Process Explorer DLLs](screenshots/week6/02_Process_Explorer_DLL_Handles.png)
+![Process Explorer DLLs](Screenshots/02_Process_Explorer_DLL_Handles.png)
+
 *Figure 2: Lower-pane DLL inspection in Process Explorer displaying loaded dynamic link libraries, base memory addresses, and file handles for the critical authentication subsystem `lsass.exe`.*
 
 ---
 
 ### Test 3: Autoruns Persistence & Boot Vector Audit
-![Autoruns Persistence](screenshots/week6/03_Autoruns_Persistence_Audit.png)
+![Autoruns Persistence](Screenshots/03_Autoruns_Persistence_Audit.png.png)
+
 *Figure 3: Autoruns (`autoruns.exe`) auditing Auto-Start Extensibility Points (ASEPs), confirming code signatures and absence of rogue persistence across Logon, Services, and Scheduled Tasks.*
 
 ---
 
 ### Test 4: TCPView Real-Time Network Sockets & Port Mapping
-![TCPView Network Sockets](screenshots/week6/04_TCPView_Network_Sockets.png)
+![TCPView Network Sockets](Screenshots/04_TCPView_Network_Sockets.png)
+
 *Figure 4: TCPView (`tcpview.exe`) displaying active Layer 4 sockets on `CORP-DC01`, verifying listening states for core enterprise infrastructure: DNS (Port 53), Kerberos (Port 88), LDAP (Port 389), and SMB (Port 445).*
 
 ---
 
 ### Test 5: Advanced Audit Policy Configuration (GPO)
-![Advanced Audit GPO](screenshots/week6/05_Advanced_Audit_Policy_GPO.png)
+![Advanced Audit GPO](Screenshots/05_Advanced_Audit_Policy_GPO_Detailed_Tracking.png)
+
 *Figure 5: Group Policy Management Editor displaying Advanced Audit Policy Configuration on `CORP-DC01` with Audit Process Creation, Audit User Account Management, and Audit Logon actively enforced.*
 
 ---
 
 ### Test 6: PowerShell Security Event & Command-Line Telemetry Triage
-![PowerShell Security Events](screenshots/week6/06_PowerShell_Security_Event_Analysis.png)
+![PowerShell Security Events](Screenshots/06_PowerShell_Security_Event_Analysis.png)
+
 *Figure 6: Administrative PowerShell console executing `Get-WinEvent` to interrogate the Security event log, extracting Event ID 4688 records with full command-line argument auditing.*
 
 ---
 
 ### Test 7: C3 Surveillance Infrastructure Health & Corridor Telemetry
-![C3 Surveillance Telemetry](screenshots/week6/07_C3_Surveillance_Uptime_Telemetry.png)
+![C3 Surveillance Telemetry](Screenshots/07_C3_Surveillance_Uptime_Telemetry.png.png)
+
 *Figure 7: Automated C3 Infrastructure Diagnostic & Corridor Availability Probe executing in administrative PowerShell on `CORP-DC01`, identifying total corridor unreachability across remote surveillance nodes (`OFFLINE / UNREACHABLE`), actively triggering Stage 1 physical/logical fault triage under the Warri Oil & Gas Surveillance Incident Escalation SOP.*
 
 ---
@@ -166,5 +173,5 @@ This project designs and implements an enterprise-grade **C3 Systems Diagnostic,
 * **Role:** C3 Infrastructure Operations Specialist | Systems & Cloud Security Engineer
 * **Facility Focus:** Oil & Gas Critical Infrastructure Surveillance & Telemetry
 * **Location:** Warri, Delta State, Nigeria
-* **LinkedIn:** [linkedin.com/in/ChukwubuzorPerazim](https://www.linkedin.com/in/ChukwubuzorPerazim)
-* **GitHub:** [github.com/ChukwubuzorPerazim](https://github.com/ChukwubuzorPerazim)
+* **LinkedIn:** [linkedin.com/in/ChukwubuzorPerazim](https://www.linkedin.com/in/chukwubuzor-perazim-590a5519a/)
+* **GitHub:** [github.com/ChukwubuzorPerazim](https://github.com/Perazimy)
