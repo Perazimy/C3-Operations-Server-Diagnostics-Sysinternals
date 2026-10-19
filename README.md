@@ -1,1 +1,0 @@
-# C3-Operations-Server-Diagnostics-Sysinternals
